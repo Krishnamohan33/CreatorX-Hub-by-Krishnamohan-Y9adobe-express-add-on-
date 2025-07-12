@@ -38,6 +38,10 @@ The add-on is built and tested using **Adobe Express Developer Mode** with the b
 
 ---
 
+## 📸 Screenshots
+<img width="407" height="856" alt="Screenshot 2025-07-12 090112" src="https://github.com/user-attachments/assets/068cc053-2b27-4e02-adf4-f1422f3cb366" />
+
+
 ## 🚀 Getting Started (Developer Mode)
 
 1. Clone this repository
