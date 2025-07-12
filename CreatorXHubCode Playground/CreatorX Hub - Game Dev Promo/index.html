@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Game Dev Promo Assistant</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="addon-container">
+    <h1 class="addon-title">🎮 Game Dev Promo Assistant</h1>
+    <p class="addon-subtitle">Generate banners, thumbnails, and promo content for your game</p>
+
+    <form class="promo-form">
+      <div class="form-group">
+        <label for="game-title">Game Title</label>
+        <input type="text" id="game-title" placeholder="Enter your game title" />
+      </div>
+
+      <div class="form-group">
+        <label for="genre">Game Genre</label>
+        <select id="genre">
+          <option>Action</option>
+          <option>RPG</option>
+          <option>Horror</option>
+          <option>Puzzle</option>
+          <option>Simulation</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="screenshot">Upload Screenshot</label>
+        <input type="file" id="screenshot" accept="image/*" />
+      </div>
+
+      <button type="submit" class="generate-btn">Generate Promo Assets</button>
+    </form>
+
+    <div class="preview-box">
+      <p class="preview-placeholder">Generated asset preview will appear here.</p>
+    </div>
+  </div>
+</body>
+</html>
